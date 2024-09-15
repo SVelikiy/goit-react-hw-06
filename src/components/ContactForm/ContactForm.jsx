@@ -50,7 +50,7 @@ export default function ContactForm() {
           component="span"
           className={css.errMessageName}
         />
-        <label htmlFor={numberId}>Namber</label>
+        <label htmlFor={numberId}>Number</label>
         <Field type="text" name="number" id={numberId} className={css.input} />
         <ErrorMessage
           name="number"
